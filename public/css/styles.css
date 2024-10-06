@@ -1,0 +1,17 @@
+@import url("../../node_modules/@volvo-cars/css/dist/styles.css");
+
+.carsCardContent {
+  display: flex;
+}
+.cardContainer {
+  width: 20rem;
+}
+
+@media (max-width: 767px) {
+  .carsCardContent {
+    flex-direction: column;
+  }
+  .cardContainer {
+    width: 17rem;
+  }
+}

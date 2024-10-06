@@ -1,0 +1,20 @@
+.sliderItem {
+  flex-shrink: 0;
+}
+
+@media (min-width: 1024px) {
+  .sliderItem {
+    width: calc((100% - (3 * 28px)) / 4);
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .sliderItem {
+    width: calc((100% - (2 * 28px)) / 2);
+  }
+}
+
+@media (max-width: 767px) {
+  .sliderItem {
+    width: 80%;
+  }
+}
